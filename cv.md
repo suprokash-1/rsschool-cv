@@ -28,8 +28,8 @@
 - JavaScript
 - Blockchain
 - DS & Algo
-- Version Control: Git, GitHub
-- Text Editor: VS Code, Sublime Text<br>
+- **Version Control**: Git, GitHub
+- **Text Editor**: VS Code, Sublime Text<br>
 
 ---
 

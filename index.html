@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CV</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <nav class="su_navbar">
+            <ul class="su_navbar__links">
+                <li><a class="su_navbar__links-link" href=#top>About Me</a></li>
+                <li><a class="su_navbar__links-link" href=#education>Education</a></li>
+                <li><a class="su_navbar__links-link" href=#projects>Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="su_content">
+        <div class="su_content__title">
+            <img src="./images/me.jpg" alt="avatar" width="40" height="40">
+            <h1>Suprokash Chakra Borty</h1>
+        </div>
+        <h2>Contacts</h2>
+        <ul class="su_contacts">
+            <li>Phone: <a href="https://google.com" target="_blank">+88-019-97142725</a></li>
+            <li>E-mail: <a href="https://google.com" target="_blank">suprokash.cb.web@gmail.com</a></li>
+            <li>Github: <a href="https://github.com/suprokash-1" target="_blank">https://github.com/suprokash-1</a></li>
+        </ul>
+        <h2>A Brief Intro About Me</h2>
+        <ul class="su_about-me-text">
+            <li>A Web 3.0 Developer in the making!</li>
+            <li>I’m one of those quintessential optimistic towards life, philosophy, spirituality & realism.</li>
+            <li>An avid animal rights activist. A huge believer of “Live and let live”!</li>
+            <li>A literary enthusiast. A staunch admirer of the literary work of - Mark Twain, Virginia Woolf, Maxim Gorky & Rabindranath Tagore to name a few!</li>
+            <li>My mom frequently says that I’m a huge disaster; others around me begs to differ with that!</li>
+            <li>There is a lot more to tell but this is not the right place for that!</li>
+        </ul>
+        <h2>Skills</h2>
+        <ul class="su_content__technology-links">
+            <li>HTML</li>
+            <li>CSS, SCSS</li>
+            <li>Javascript</li>
+            <li>Relational databases</li>
+            <li>Version Control - Git / GitHub</li>
+            <li>Blockchain</li>
+        </ul>
+        <h2>Some Code Snippet</h2>
+        <h3>Nested Destructuring:</h3>
+        <div class="su_content__snippet-container">
+            <pre>
+            <code class="su_content__snippet-code">
+const user = {
+     id: 459,
+     name: 'JS snippets',
+     age:29,
+     education:{
+      degree: 'Masters'
+     }
+}
+
+const { education : { degree } } = user;
+console.log(degree) //Masters
+            </code>
+            </pre>
+        </div>
+        <h3>Aliases with JavaScript Destructuring:</h3>
+        <div class="su_content__snippet-container">
+            <pre>
+            <code class="su_content__snippet-code">
+const obj = {
+  name: "JSsnippets"
+};
+
+
+// Grabs obj.name as { pageName }
+const { name: pageName } = obj;
+
+//log our alias
+console.log(pageName) // JSsnippets
+            </code>
+            </pre>
+        </div>
+        <h2 id="education">Education</h2>
+        <h3>Diploma in Marine Engineering (2012-2013)</h3>
+        <h2>Job Experience</h2>
+        <h3>Served as an Engine Cadet (2014-2015) on board MV. ATRO-1</h3>
+        <h2 id="projects">Projects</h2>
+        <ul class="su_my-project"><li><a href="https://suprokash-1.github.io/rsschool-cv/cv" target="_blank">RSSchool CV</a></li></ul>
+        <h2>Language Lavels</h2>
+        <h3>English</h3>
+        <p>Level: C1</p>
+        <h3>Bengali</h3>
+        <p>Level: Native</p>
+        <h3>Hindi</h3>
+        <p>Level: Intermediate</p>
+        <h3>Japanes</h3>
+        <p>Level: Rudimentary</p>
+    </main>
+
+    <footer class="su_footer">
+        <a href="https://rs.school/js/" target=_blank><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo" width="70"></a>
+        <a href="https://github.com/suprokash-1" target="_blank" class="su_my-name">Suprokash</a>
+        <a href="https://github.com/suprokash-1" target="_blank"><img src="./images/github.svg" alt="github logo" width="60"></a>
+        <span>April-2022</span>
+    </footer>
+</html>

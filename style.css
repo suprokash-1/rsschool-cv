@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./fonts/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+header {
+    font-family: cursive;
+}
+
+.su_navbar {
+  width: 100%;
+  color: #C49102;
+  background-color: #3A3845;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.su_navbar__links {
+  display: flex;
+  list-style: none;
+}
+
+.su_navbar__links-link {
+  color: #C49102;
+  background-color: #3A3845;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 80px;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.su_navbar__links-link:hover {
+  color: #4D96FF;
+  background-color: #3A3845;
+}
+
+.su_content {
+  padding: 0 80px 40px;
+  margin-top: 120px
+}
+
+.su_pitch-line {
+  font-family: sans-serif;
+  color: #3A3845;
+  background-color: inherit;
+}
+
+.su_pitch-line em {
+  font-size: 150%;
+}
+
+h1, h2 {
+  font-family: cursive;
+  color: #008000;
+  background-color: inherit;
+  line-height: 45px;
+}
+
+
+#education, #projects {
+  padding-top: 100px;
+}
+
+h3 {
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.su_my-project {
+  text-decoration: none;
+  color: #00f000;
+  background-color: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  line-height: 28px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #78938A;
+  background-color: inherit;
+}
+
+.su_content__title {
+  display:flex;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.su_content__title > img {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #3A3845;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.su_content__technology-links, .su_about-me-text, .su_contacts {
+  line-height: 28px;
+  font-size: 18px;
+  color: #3A3845;
+  background-color: inherit;
+  list-style-type: square;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.su_content__snippet-container {
+  color: #F7CCAC;
+  background-color: #3A3845;
+  padding-left: 20px;
+  overflow-wrap: break-word;
+}
+
+.su_footer {
+  color: inherit;
+  background-color: #3A3845;
+  padding: 30px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.su_footer a {
+  padding-left: 20px;
+}
+
+.su_footer .su_my-name {
+  color: #C49102;
+  background-color: inherit;
+}
+.su_footer span {
+  padding-left: 30px;
+  color: #C49102;
+  background-color: inherit;
+}
